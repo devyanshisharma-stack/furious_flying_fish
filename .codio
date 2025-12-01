@@ -1,0 +1,13 @@
+{
+// Configure your Run and Preview buttons here.
+
+// Run button configuration
+  "commands": {
+        "Open Terminal": "clear",
+        "Check for Style Issues": "pycodestyle *.py",
+        "Autoformat Current File": "autopep8 -i {{filepath}}"
+    },
+    "preview": {
+        "View Running Program": "https://{{domain3050}}/"
+    }
+}
